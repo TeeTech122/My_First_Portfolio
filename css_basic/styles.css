@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    flex-direction: column; 
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    background-color: #ffffff; 
+}
+
+article{
+    flex: 2;
+    overflow-y: auto;
+    background-color: #f5f7fa;      
+    padding: 1rem;             
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+aside{
+    flex: 1;
+    overflow-y: auto;
+    background-color: #fff5f0;     
+    padding: 1rem;             
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+
+
